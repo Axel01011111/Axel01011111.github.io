@@ -102,9 +102,10 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
-	img:hover {
+	.proyecto:hover {
     webkit-filter: blur(4px); /* Chrome, Safari, Opera */
     filter: blur(4px);
+		transition: .5s ease;
 }
 
 	*, *:before, *:after {
@@ -325,6 +326,10 @@ input, select, textarea {
 		top: 0.5em;
 	}
 
+	.para_left{
+		text-align: center;
+	}
+
 	sup {
 		font-size: 0.8em;
 		position: relative;
@@ -371,6 +376,19 @@ input, select, textarea {
 		hr.major {
 			margin: 4em 0;
 		}
+
+	.langs_flex{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.langs{
+		opacity: 1;
+		max-width: 10%;
+		/* animation */
+		transition: .5s ease;
+    backface-visibility: hidden;
+	}
 
 	.align-left {
 		text-align: left;
