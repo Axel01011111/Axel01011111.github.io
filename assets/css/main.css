@@ -4038,6 +4038,11 @@ input, select, textarea {
 
 /* Footer */
 
+	.footer-contact {
+		text-align: center;
+		margin-top: 50px;
+	}
+
 	#footer .inner {
 		padding: 5em 0 3em 0 ;
 		display: -moz-flex;
